@@ -8,3 +8,8 @@ This is in **Markdown**. It can also do lists.
 
 1. numbered items
 2. like this
+
+
+This is the new required edit. And I guess this will be in *italics*. 
+
+I just reopened this to write a commit message, because I haven't done so before. 
