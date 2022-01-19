@@ -12,12 +12,21 @@ def convert_inches_to_meters(dist_inches):
     return distance_meter
 
 print('I am here')
-distance_feet = 10.0
-print(distance_feet)
-distance_feet = convert_feet_to_meters(200.0)
-print('Distance is', distance_feet, 'meters')
+distance_meter = 10.0
+print(distance_meter)
+distance_meter = convert_feet_to_meters(200.0)
+print('Distance is', distance_meter, 'meters')
 print('Now I am done')
 
-
-
+print ('1000 inches in meters are', convert_feet_to_meters(convert_inches_to_feet(1000.0)))
 print ('1000 inches in meters are', convert_inches_to_meters(1000.0))
+
+
+# If statements
+
+if distance_meter > 10.0:
+    print('Distance is greater than 10.')
+else:
+    print('Distance is not that great.')
+
+print(distance_meter>10.0)
